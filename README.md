@@ -2,15 +2,15 @@
 
 ![images/sql-logo.png](images/sql-logo.png)
 
-1. [SELECT simple](01-select-simple.md)
-2. [LIMIT sans ORDER BY](02-limit-sans-order-by.md)
-3. [NULL](03-null.md)
-4. [MAX](04-max.md)
-5. [Trouver le n-ième](05-n-ieme.md) (par exemple le deuxième salaire le plus élevé)
-6. [INDEX](06-index.md)
-7. [Fonctions sur des jokers](07-fonctions-sur-jokers.md)
-8. [Jointures](08-jointures.md)
-9. [Sous-requêtes](09-sous-requetes.md)
-10. [OFFSET élevé](10-offset.md)
+1. [LIMIT sans ORDER BY](01-limit-sans-order-by.md)
+2. [NULL](02-null.md)
+3. [MAX](03-max.md)
+4. [Trouver le n-ième](04-n-ieme.md)
+5. [Index et sargabilité](05-index.md)
+6. [Fonctions sur des jokers](06-jokers.md)
+7. [Jointures](07-jointures.md)
+8. [Sous-requêtes](08-sous-requetes.md)
+9. [DISTINCT](09-sous-requetes.md)
+10. [OFFSET trop élevé](10-offset.md)
 
-> 💡 Bonus : un bon réflexe : dès qu'une requête devient importante,  regardez son plan d'exécution avec |l'instruction `EXPLAIN`](explain.php).
+> 💡 Bonus : un bon réflexe : dès qu'une requête devient importante, regardez son plan d'exécution avec [l'instruction `EXPLAIN`](explain.md).
